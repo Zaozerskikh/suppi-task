@@ -1,0 +1,94 @@
+.search-component-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    gap: 24px;
+}
+
+.search-component-wrapper .input-and-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-component-wrapper .input-and-btn-wrapper .search-btn {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: var(--gray-light);
+    border-width: 0;
+}
+
+.search-component-wrapper .input-and-btn-wrapper .search-btn:hover {
+    cursor: pointer;
+    background-color: var(--gray-hover);
+}
+
+.search-component-wrapper .input-and-btn-wrapper .search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--gray-dark);
+    border-width: 1px;
+}
+
+.search-component-wrapper .result-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 4px 16px 16px;
+    align-items: flex-start;
+    gap: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.search-component-wrapper .result-section-wrapper .top-grad {
+    position: absolute;
+    top: 48px;
+    background: linear-gradient(to top, transparent, var(--main-white, #FFFFFF));
+    height: 12px;
+    display: flex;
+    pointer-events: none;
+    width: calc(100% - 32px);
+    z-index: 9;
+}
+
+.search-component-wrapper .result-section-wrapper .bottom-grad {
+    position: absolute;
+    bottom: 16px;
+    background: linear-gradient(to bottom, transparent, var(--main-white, #FFFFFF));
+    height: 12px;
+    display: flex;
+    pointer-events: none;
+    width: calc(100% - 32px);
+    z-index: 9;
+}
+
+.search-component-wrapper .result-section-wrapper .result-list-wrapper {
+    max-height: 400px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.search-component-wrapper .result-section-wrapper .result-list-wrapper .result-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

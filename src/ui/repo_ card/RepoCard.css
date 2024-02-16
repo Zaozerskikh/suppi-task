@@ -1,0 +1,32 @@
+.repo-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-sizing: border-box;
+    border: 1px solid var(--gray-dark, #6D6D70FF);
+    border-radius: 12px;
+    padding: 8px;
+    width: 100%;
+}
+
+.repo-card-wrapper .header-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.repo-card-wrapper .repo-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.repo-card-wrapper .repo-info-wrapper .star-wrapper {
+    display: flex;
+    gap: 4px;
+}
+
+.repo-card-wrapper .repo-info-wrapper .additional-info-wrapper {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}

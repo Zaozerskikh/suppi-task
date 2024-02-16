@@ -1,0 +1,39 @@
+.font-h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.font-h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.font-controls {
+    font-size: 22px;
+}
+
+.font-main {
+    font-size: 20px;
+}
+
+.font-secondary {
+    font-size: 17px;
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.special-red {
+    color: var(--special-red);
+}
+
+.animation-02s-all {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
